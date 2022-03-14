@@ -1,1 +1,15 @@
-ab
+version: 1.1
+name: SomsPlugin
+main: com.som.somsplugin.Main
+author: som
+description: The go to command lets you go to a saved location
+commands:
+  setloc:
+    aliases: [sl,thisis]
+    description: sets whatever you type after this as a saved location that you can go to anytime
+  gotoloc:
+    aliases: [gl,goto]
+    description: sjfhsjdfh 
+  clearloc:
+    aliases: [clear,cl]
+    description: Deletes the location you type after this command       
